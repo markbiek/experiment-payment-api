@@ -11,10 +11,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="main.css" type="text/css" media="all" />
 </head>
 <body>
+    <div class="container">
+        <div class="cart">
+            <h1>Checkout</h1>
+            <div class="row">
+                <div class="col-md-4 product-desc">Gold-plated widget</div>        
+                <div class="col-md-2 product-price" data-amount="128">$128.00</div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 product-desc">Robotic toaster</div>        
+                <div class="col-md-2 product-price" data-amount="256">$256.00</div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 product-desc">Classic Simian disguise</div>        
+                <div class="col-md-2 product-price" data-amount="64">$64.00</div>
+            </div>
+
+            <div class="row total">
+                <div class="col-md-2 col-md-offset-4" id="total-amount" data-total="0"><i class="fa fa-spinner"></i></div>
+            </div>
+            <div class="row pay-now">
+                <div class="col-md-2 col-md-offset-4">
+                    <button type="button" class="btn btn-primary btn-lg pay-button">Pay Now</button 
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://use.fontawesome.com/571406dd14.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="bundle.js"></script>
 </body>

@@ -1,3 +1,35 @@
 * {
     box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+}
+
+.cart {
+    width: 75%;
+    margin: 0 auto;
+
+    h1 {
+        margin-bottom: 24px;
+    }
+
+    .row {
+        margin-bottom: 6px;
+
+        &:nth-child(odd) {
+            background: #eee;
+        }
+
+        &.total {
+            background: none;
+            border-top: 1px solid grey;
+            margin-top: 24px;
+            padding-top: 12px;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        &.pay-now {
+            margin-top: 24px;
+        }
+    }
 }
